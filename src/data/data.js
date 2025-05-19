@@ -1,42 +1,43 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
+import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    title: "Backend Development",
+    icon: <AiFillAppstore />,
+    des: "Building secure, scalable APIs and services using Express.js, NestJS, and Laravel.",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    title: "Frontend Development",
+    icon: <FaGlobe />,
+    des: "Creating fast, responsive UIs with React.js, Next.js, and Tailwind CSS.",
   },
   {
     id: 3,
+    title: "Full-Stack Applications",
     icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Delivering complete solutions — from backend to frontend — tailored for users.",
   },
   {
     id: 4,
+    title: "Mobile App Development",
     icon: <FaMobile />,
-    title: "Mobile Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Building cross-platform mobile apps with React Native that feel truly native.",
   },
   {
     id: 5,
+    title: "UI/UX Design",
     icon: <SiAntdesign />,
-    title: "UX Design",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Designing clean and user-focused interfaces that enhance usability and experience.",
   },
   {
     id: 6,
+    title: "Web Deployment & Hosting",
     icon: <FaGlobe />,
-    title: "Hosting Websites",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Deploying modern web apps with performance and scalability in mind.",
   },
 ];

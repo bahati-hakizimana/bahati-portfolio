@@ -1,4 +1,7 @@
 import logo from "./images/logo.png";
+import logo1 from "./images/logo1.jpg";
+import logo12 from "./images/logo1.png";
+import logo2 from "./images/logo2.png";
 import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
@@ -10,6 +13,9 @@ import contactImg from "./images/contact/contactImg.png";
 
 export {
   logo,
+  logo1,
+  logo12,
+  logo2,
   bannerImg,
   projectOne,
   projectTwo,
